@@ -1,0 +1,104 @@
+Datos correctos.
+-Tratamiento de agua
+
+CUERPOACUOSO ( RIO ) 
+{ ( <
+( < temperatura > ) : 34 ;
+( < grasas > ) : SST 180 ;
+( < huevosHelmintos > ) : AP ;
+( < fecales > ) : RIO 250 ;
+( < PH > ) : 9 ;
+( < UT > ) : 5 ;
+) > }
+
+CUERPOACUOSO ( ARROLLO ) 
+{ ( <
+( < temperatura > ) : 34 ;
+( < grasas > ) : SST 180 ;
+( < huevosHelmintos > ) : AP ;
+( < fecales > ) : ARROLLO 370 ;
+( < PH > ) : 9 ;
+( < UT > ) : 5 ;
+) > }
+
+-INCORRECTO
+
+CUERPOACUOSO ( CANAL ) 
+{ ( <
+( < temperatura > ) : 34 ;
+( < grasas > ) : SST 175 ;
+( < huevosHelmintos > ) : AP ;
+( < fecales > ) : CANAL 500 ;
+( < PH > ) : 9 ;
+( < UT > ) : 5 ;
+) > }
+
+-Tareas Domesticas
+
+CUERPOACUOSO ( ARROLLO ) 
+{ ( <
+( < temperatura > ) : 28 ;
+( < grasas > ) : DO 140 ;
+( < huevosHelmintos > ) : NA ;
+( < fecales > ) : ARROLLO 370 ;
+( < PH > ) : 6 ;
+( < UT > ) : 4 ;
+) > }
+
+CUERPOACUOSO ( RIO ) 
+{ ( <
+( < temperatura > ) : 32 ;
+( < grasas > ) : N 140 ;
+( < huevosHelmintos > ) : NA ;
+( < fecales > ) : RIO 238 ;
+( < PH > ) : 6 ;
+( < UT > ) : 4 ;
+) > }
+
+-INCORRECTO
+
+CUERPOACUOSO ( CANAL ) 
+{ ( <
+( < temperatura > ) : 27 ;
+( < grasas > ) : N 135 ;
+( < huevosHelmintos > ) : NA ;
+( < fecales > ) : CANAL 460 ;
+( < PH > ) : 6 ;
+( < UT > ) : 4 ;
+) > }
+
+-Consumo humano
+
+CUERPOACUOSO ( CANAL ) 
+{ ( <
+( < temperatura > ) : 24 ;
+( < grasas > ) : CO 105 ;
+( < huevosHelmintos > ) : NA ;
+( < fecales > ) : CANAL 460 ;
+( < PH > ) : 8 ;
+( < UT > ) : 3 ;
+) > }
+
+-INCORRECTO
+
+CUERPOACUOSO ( RIO ) 
+{ ( <
+( < temperatura > ) : 24 ;
+( < grasas > ) : F 100 ;
+( < huevosHelmintos > ) : NA ;
+( < fecales > ) : RIO 250 ;
+( < PH > ) : 8 ;
+( < UT > ) : 3 ;
+) > }
+
+CUERPOACUOSO ( ARROLLO ) 
+{ ( <
+( < temperatura > ) : 24 ;
+( < grasas > ) : SST 100 ;
+( < huevosHelmintos > ) : NA ;
+( < fecales > ) : ARROLLO 350 ;
+( < PH > ) : 7 ;
+( < UT > ) : 3 ;
+) > }
+
+
